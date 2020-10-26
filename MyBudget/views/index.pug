@@ -1,0 +1,12 @@
+h1 My budget
+
+if data.length  
+    each val in data
+        li= val.name 
+            |  - #{val.price} UAH
+else
+    p Файл з покупками порожній
+
+
+a(href='new'): button new
+a(href='calendar'): button calendar
